@@ -25,6 +25,10 @@ app.use(
   })
 );
 
+
+const socket = require("./socket");
+socket(app);
+
 const prefix = "/media";
 const HttpResult = require("./utils/httpResult.js");
 const {
@@ -425,6 +429,9 @@ app.ws("/chatRoom", (ws, request) => {
     }
   });
 });
+
+
+
 
 //3.指定服务器运行的端口号(绑定端口监听)
 app.listen(3000, function(err) {
