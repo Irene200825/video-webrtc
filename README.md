@@ -2,7 +2,8 @@
 
 项目包含前端和后端，用户管理模块、聊天室、视频语音通话、视频会议模块，前端使用vue3+element-plus+webrtc+echarts+webSocket，后端使用nodejs+mongodb+express+session
 
-使用链接：http://47.97.222.215/#/login
+视频聊天：https://47.97.222.215/#/login
+文字聊天：http://47.97.222.215/#/login
 
 
 
