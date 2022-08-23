@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./index.js"
+    "dev": "node ./index.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,9 @@
     "express-ws": "^5.0.2",
     "mongodb": "^4.8.1",
     "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
